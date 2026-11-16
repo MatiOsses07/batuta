@@ -1,0 +1,8 @@
+{
+  "name": "orquesta",
+  "version": "1.3.0",
+  "description": "Orquesta de agentes con reglas de ruteo, log con tokens, consolidador de contexto, medidor de ahorro y precisión de pedidos",
+  "author": {
+    "name": "Matias Garrido"
+  }
+}
