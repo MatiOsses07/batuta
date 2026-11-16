@@ -1,0 +1,16 @@
+{
+  "name": "batuta",
+  "owner": {
+    "name": "Matias Garrido"
+  },
+  "metadata": {
+    "description": "Plugins de Claude Code para ahorrar tokens ruteando tareas al modelo adecuado"
+  },
+  "plugins": [
+    {
+      "name": "orquesta",
+      "source": "./orquesta",
+      "description": "Orquesta de agentes para Claude Code: ruteo de modelos (Haiku/Sonnet/Opus) según la tarea, log de tokens, medidor de ahorro y consolidador de contexto"
+    }
+  ]
+}
