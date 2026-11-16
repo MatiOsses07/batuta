@@ -1,0 +1,10 @@
+{
+  "_nota": "USD por millón de tokens. Fuente: tabla de modelos de la referencia de la API (2026-09-25). cache_lectura de Haiku 4.5 y todos los cache_escritura son derivados (0.1x y 1.25x del precio de entrada, TTL 5 min): verificar en la página de precios si hay dudas.",
+  "referencia": "claude-opus-5-5",
+  "modelos": {
+    "claude-opus-5-5":   { "entrada": 4.00,  "salida": 20.00, "cache_lectura": 0.20, "cache_escritura": 5.00 },
+    "claude-sonnet-5-5": { "entrada": 2.00,  "salida": 10.00, "cache_lectura": 0.20, "cache_escritura": 2.50 },
+    "claude-haiku-4-5":  { "entrada": 1.00,  "salida": 5.00,  "cache_lectura": 0.10, "cache_escritura": 1.25 },
+    "claude-fable-5-1":  { "entrada": 10.00, "salida": 50.00, "cache_lectura": 0.25, "cache_escritura": 12.50 }
+  }
+}
